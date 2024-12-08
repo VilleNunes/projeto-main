@@ -126,18 +126,24 @@
         width: 150px !important;
    }
    .tamanho-cards{
-        height: 360px !important;
+        height: 280px !important;
    }
    .title-card{
         font-size: 0.8rem;
    }
-
+   .button-card{
+     font-size: 0.4rem;
+     padding: 4px 15px;
+   }
    .body p{
      font-size:0.6rem;
    }
    .body div{
      margin-bottom: 5px;
    }
+   .secao-cards h2 {
+    font-size: 1rem;
+    }
 
    
 }
