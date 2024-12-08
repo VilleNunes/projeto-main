@@ -41,7 +41,16 @@ nav ul li a {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 16px;
+  align-items: center;
+}
+
+.link-online a:nth-child(1){
+  display: flex;
+  gap:1rem;
+  align-items: center;
+  text-decoration: none;
+  padding-right: 10px;
 }
 .active-link {
   padding-inline: 10px;
@@ -65,3 +74,4 @@ nav ul li a {
     gap: 16px;
   }
 }
+

@@ -1,0 +1,82 @@
+.destinos {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 8px;
+  padding-block: 10rem;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.list-destinos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-destino {
+  width: 370px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: fit-content;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-destino:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.title-destino {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.destinos h2{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.destinos p{
+  text-align: center;
+}
+
+.btn-colapse{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-cidade{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .list-destinos {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card-destino {
+      width: 100%;
+      max-width: 300px;
+  }
+}
