@@ -124,6 +124,7 @@
 @media (width < 768px) {
    .card{
         width: 150px !important;
+        border-radius: 6px;
    }
    .tamanho-cards{
         height: 260px !important;
