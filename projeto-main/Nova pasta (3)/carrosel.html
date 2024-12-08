@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhorando o Layout do Carrossel de Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        /* Seção de Cards */
+        .secao-cards {
+            min-height: 900px;
+            background-color: rgb(240, 240, 240);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 50px 0;
+        }
+
+        .secao-cards h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .secao-cards p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 40px;
+            text-align: center;
+            max-width: 700px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        /* Carrossel de Cards */
+        .carrosel-cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 10px;
+        }
+
+        /* Card */
+        .card {
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: white;
+            width: 350px;
+            margin-bottom: 30px;
+            padding: 0px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Imagem do Card */
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Corpo do Card */
+        .body {
+            padding: 20px;
+        }
+
+        .title-card {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        .body div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .body p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .body .price {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .secao-cards h2 {
+                font-size: 2rem;
+            }
+
+            .carrosel-cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Seção com Carrossel de Cards -->
+<section class="secao-cards">
+    <h2>Escolha seu destino</h2>
+    <p class="pb-5">São mais de 5 mil destinos em todo o país para escolher sem sair de casa</p>
+       <!-- Carrossel de Cards -->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active layout">
+                    <div class="row g-4 justify-content-center carrosel-cards">
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                            <div class="body">
+                                <div class="title-card">
+                                    Cascavel
+                                </div>
+                                <div>
+                                    <p>Partindo de</p>
+                                    <p>Apartir de</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                            <div class="body">
+                                <div class="title-card">
+                                    Cascavel
+                                </div>
+                                <div>
+                                    <p>Partindo de</p>
+                                    <p>Apartir de</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                            </div>
+                        </div>
+                
+
+                        <div class="card">
+                            <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                            <div class="body">
+                                <div class="title-card">
+                                    Cascavel
+                                </div>
+                                <div>
+                                    <p>Partindo de</p>
+                                    <p>Apartir de</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                            </div>
+                        </div>
+                
+                
+
+                       
+                        
+
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item layout">
+                    <div class="row g-4 justify-content-center carrosel-cards">
+                        <!-- Card 5 -->
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                            <div class="body">
+                                <div class="title-card">
+                                    Cascavel
+                                </div>
+                                <div>
+                                    <p>Partindo de</p>
+                                    <p>Apartir de</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                            <div class="body">
+                                <div class="title-card">
+                                    Cascavel
+                                </div>
+                                <div>
+                                    <p>Partindo de</p>
+                                    <p>Apartir de</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                            </div>
+                        </div>
+                
+
+                        <div class="card">
+                            <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                            <div class="body">
+                                <div class="title-card">
+                                    Cascavel
+                                </div>
+                                <div>
+                                    <p>Partindo de</p>
+                                    <p>Apartir de</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                                <div>
+                                    <p>Perobal</p>
+                                    <p class="price">R$ 40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles do carrossel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+</section>
+
+<!-- Incluir os scripts do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

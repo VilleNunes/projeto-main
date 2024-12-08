@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt- r">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/carrosel.css">
+    <link rel="stylesheet" href="style/carrosel-card.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid header">
+                <a class="navbar-brand" href="#">
+                    <img height="40px" src="https://viacaoumuarama.com.br/site/images/logo-umuarama-rodoviario.png" alt="Logo">
+                </a>
+                <!-- Botão de navegação (hambúrguer) para dispositivos móveis -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links de navegação -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                   
+                    <ul class="navbar-nav ">
+                       
+                        <li class="nav-item active-link">
+                            <img height="18px" src="https://queropassagem.com.br/images/2021/header-passagens.svg?%201695842051" alt=""><a class="nav-link" href="#">Passagens</a>
+                        </li>
+                        <li class="nav-item">
+                           <img height="19px" src="https://queropassagem.com.br/images/icon_atendimento-online_ajuda.svg" alt=""> <a class="nav-link" href="#">Normas de embarque</a>
+                        </li>
+                    </ul>
+                    <p class="navbar-text ms-auto link-online">
+                        <a href="#"><img height="35px" src="whatsapp (1).png" alt=""></a>
+                        <a href=""><img height="35px" src="instagram.png" alt=""></a>
+                        <a href=""><img height="35px" src="facebook.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Carrossel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://viacaoumuarama.com.br/site/images/banner/gabrasiloriginal.png" alt="First slide">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="caption-title">Explore novos destinos com conforto!</h2>
+                    <p class="caption-subtitle">Reserve sua viagem hoje mesmo.</p>
+                </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://viacaoumuarama.com.br/urb/site/images/banner/TOPO-GERAL-1.png" alt="Second slide">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="caption-title">A sua jornada começa aqui!</h2>
+                    <p class="caption-subtitle">Viaje com conforto e segurança.</p>
+                </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://viacaoumuarama.com.br/site/images/banner/TOPO-GERAL-1.png" alt="Third slide">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="caption-title">Viaje com segurança e tranquilidade!</h2>
+                    <p class="caption-subtitle">Descubra novos destinos agora.</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Controles do Carrossel -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </a>
+    </div>
+    
+
+    <!-- Seção com Carrossel de Cards -->
+    <section class="secao-cards">
+        <h2>Pensando em viajar?</h2>
+        <p class="pb-5">Escolha o destino e compre sua passagem de ônibus online</p>
+            <!-- Carrossel de Cards -->
+            <div id="card1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+                <div class="carousel-inner tamanho-cards">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active layout">
+                        <div class="row g-4 justify-content-center carrosel-cards">
+                            <!-- Card 1 -->
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div>
+                                    <button class="button-card">Compre</button>
+                            </div>
+
+                            <!-- Card 1 -->
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div>
+                                    <button class="button-card">Compre</button>
+                            </div>
+
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div>
+                                    <button class="button-card">Compre</button>
+                            </div>
+                    
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div>
+                                    <button class="button-card">Compre</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item layout">
+                        <div class="row g-4 justify-content-center carrosel-cards">
+                            <!-- Card 1 -->
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div>
+                                    <button class="button-card">Compre</button>
+                            </div>
+
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div>
+                                    <button class="button-card">Compre</button>
+                            </div>
+
+                            <!-- Card 1 -->
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div>
+                                    <button class="button-card">Compre</button>
+                            </div>
+                    
+                            <div class="card">
+                                <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                <div class="body">
+                                    <div class="title-card">
+                                        Cascavel
+                                    </div>
+                                    <div>
+                                        <p>Partindo de</p>
+                                        <p>Apartir de</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                    <div>
+                                        <p>Perobal</p>
+                                        <p class="price">R$ 40</p>
+                                    </div>
+                                </div> 
+                                <button class="button-card">Compre</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles do carrossel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#card1" data-bs-slide="prev">
+                    <span style="background-color: rgba(0, 0, 0, 0.262);" class="carousel-control-prev-icon"aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#card1" data-bs-slide="next">
+                    <span style="background-color: rgba(0, 0, 0, 0.262);" class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+   
+
+    <!--Section Segunda fileira de cards-->
+ 
+          <!-- Carrossel de Cards -->
+                <div id="card2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+                    <div class="carousel-inner tamanho-cards">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active layout">
+                            <div class="row g-4 justify-content-center carrosel-cards">
+                                <!-- Card 1 -->
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>
+
+                                <!-- Card 1 -->
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>
+
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>
+                        
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-item layout">
+                            <div class="row g-4 justify-content-center carrosel-cards">
+                                <!-- Card 1 -->
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>
+
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>
+
+                                <!-- Card 1 -->
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>   
+                                <div class="card">
+                                    <img src="https://queropassagem.com.br/imagens/cidades/1a.jpg" alt="Imagem de Cascavel">
+                                    <div class="body">
+                                        <div class="title-card">
+                                            Cascavel
+                                        </div>
+                                        <div>
+                                            <p>Partindo de</p>
+                                            <p>Apartir de</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                        <div>
+                                            <p>Perobal</p>
+                                            <p class="price">R$ 40</p>
+                                        </div>
+                                    </div>
+                                    <button class="button-card">Compre</button>
+                                </div>   
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Controles do carrossel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#card2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" style="background-color: rgba(0, 0, 0, 0.262);" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"  data-bs-target="#card2" data-bs-slide="next">
+                        <span  class="carousel-control-next-icon" style="background-color: rgba(0, 0, 0, 0.262);" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+    </section>  
+    <!-- Incluir o JS do Bootstrap 5 (com Popper e Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
