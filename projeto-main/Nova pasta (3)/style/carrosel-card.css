@@ -29,7 +29,6 @@
 .carrosel-cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
     padding: 10px;
@@ -56,7 +55,7 @@
 /* Imagem do Card */
 .card img {
     width: 100%;
-    height: 200px;
+    height: auto;
     object-fit: cover;
     
 }
@@ -99,7 +98,7 @@
     background-color: #28a745; 
     color: #fff; 
     border-radius: 6px; 
-    font-size: 12px; 
+    font-size: 0.8rem; 
     font-weight: bold; 
     text-transform: uppercase; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -122,17 +121,24 @@
 
 
 /* Responsividade */
-@media (max-width: 768px) {
-    .secao-cards h2 {
-        font-size: 2rem;
-    }
+@media (width < 768px) {
+   .card{
+        width: 200px !important;
+   }
+   .title-card{
+        font-size: 0.8rem;
+   }
 
-    .carrosel-cards {
-        flex-direction: column;
-        align-items: center;
-    }
+   .body p{
+     font-size:0.6rem;
+   }
 
-    .card {
-        width: 90%;
+   .tamanho-cards{
+    padding-top: 20px;
+    height:350px;
+    }
+    .button-card{
+        font-size: 0.6rem;
+        padding: 3px 15px;
     }
 }
