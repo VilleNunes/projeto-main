@@ -124,7 +124,7 @@
 @media (width < 768px) {
    .card{
         width: 150px !important;
-        border-radius: 6px;
+        border-radius: 4px !important;
    }
    .tamanho-cards{
         height: 260px !important;
@@ -143,10 +143,14 @@
      margin-bottom: 5px;
    }
    .secao-cards h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     }
 
    .body{
      padding: 5px 20px;
+   }
+   .button-next{
+     width: 10px !important;
+     margin-inline:50px;
    }
 }
