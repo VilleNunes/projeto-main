@@ -36,6 +36,12 @@ nav ul li a {
   font-weight: bold;
   color: black;
 }
+.link-online a img:hover, img[src*="logo"],.icone-whats {
+  transition: 1.5s;
+}
+.link-online a img:hover,img[src*="logo"]:hover, .icone-whats:hover {
+  transform: scale(1.2);
+}
 
 .link-online{
   margin-top: 30px;
