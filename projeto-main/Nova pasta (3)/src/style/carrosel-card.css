@@ -130,6 +130,9 @@
         width: 175px !important;
         border-radius: 4px !important;
    }
+   .secao-cards{
+    padding-inline: 20px;
+   }
    .tamanho-cards{
         height: 275px !important;
    }
