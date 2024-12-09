@@ -268,7 +268,7 @@ a{
   .animacao{
     width: 100%;
     display: block;
-    padding: 2rem 1rem;
+    padding: 2rem 0px;
   }
   img[src*="file"]{
     z-index: 1;
