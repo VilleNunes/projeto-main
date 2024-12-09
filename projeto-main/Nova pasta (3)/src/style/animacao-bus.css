@@ -198,7 +198,7 @@ a{
 
 @media (width < 768px) {
   .animacao{
-    width: 100%;
+    width: 95%;
     display: block;
     padding: 5rem 0px 0px;
     margin-block: 4rem 8rem;
