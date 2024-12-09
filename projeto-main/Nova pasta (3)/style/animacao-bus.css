@@ -268,7 +268,7 @@ a{
   .animacao{
     width: 100%;
     display: block;
-
+    padding: 2rem 1rem;
   }
   img[src*="file"]{
     z-index: 1;
@@ -278,5 +278,9 @@ a{
   }
   .animacao .button{
     margin: 0px auto;
+  }
+  h1{
+    font-size:20px I !important;
+    
   }
 }
