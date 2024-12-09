@@ -46,7 +46,7 @@
 
 @media (width < 768px) {
   .carrosel-mobile{
-    
+    color: #06B6D4;
   }
   .carousel-caption h2{
     color: #16A34A;
