@@ -201,7 +201,13 @@ a{
     width: 100%;
     display: block;
     padding: 5rem 0px 0px;
-    
+
+    & > div:nth-child(2){
+      display: block;
+      width: 100%;
+      max-width: 30.5rem;
+      height: 20.5rem;
+    }
   }
   img[src*="imagemOnibusAnimacao"]{
     width: 400px  !important;
