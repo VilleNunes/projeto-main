@@ -201,6 +201,7 @@ a{
     width: 100%;
     display: block;
     padding: 5rem 0px 0px;
+    margin-block: 4rem 8rem;
 
     & > div:nth-child(2){
       display: block;
