@@ -132,7 +132,7 @@
    }
    .secao-cards{
     padding-inline: 10px;
-    padding-top:10px;
+    padding-top:.1rem;
    }
    .tamanho-cards{
         height: 275px !important;
