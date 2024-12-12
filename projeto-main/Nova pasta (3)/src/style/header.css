@@ -84,10 +84,10 @@ nav ul li a {
     gap: 16px;
   }
   img[src*="logo-umuarama"]{
-    height: 30px;
+    height: 28px;
   }
   img[src*="Ativo"]{
-    height: 39px;
+    height: 35px;
   }
 }
 
