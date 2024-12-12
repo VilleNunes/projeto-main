@@ -83,5 +83,11 @@ nav ul li a {
     justify-content: baseline;
     gap: 16px;
   }
+  img[src*="logo-umuarama"]{
+    height: 30px;
+  }
+  img[src*="Ativo"]{
+    height: 39px;
+  }
 }
 
