@@ -15,8 +15,9 @@
 }
 
 .instagram-media{
-  width: 400px !important;
+  width: 100px !important;
   margin: 0px auto;
+  height: 420px;
 }
 .item-feed{
   display: flex;
