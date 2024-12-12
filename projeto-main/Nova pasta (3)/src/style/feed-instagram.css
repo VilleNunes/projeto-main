@@ -1,0 +1,27 @@
+.feed-instagram{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-block:10rem ;
+  h3{
+   margin-bottom:6rem;
+   font-size: 3rem;
+   
+  }
+}
+
+.instagram-media{
+  width: 90px !important;
+  margin: 0px auto;
+  height: 380px !important;
+  
+}
+.item-feed{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+ justify-content: center;
+  
+}

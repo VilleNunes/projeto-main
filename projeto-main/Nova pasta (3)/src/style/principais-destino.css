@@ -1,10 +1,10 @@
 .destinos {
   width: 100%;
-  max-width: 1200px;
   border-radius: 8px;
   padding-block: 10rem;
   overflow: hidden;
   margin: 0px auto;
+  background-color: rgb(240, 240, 240);
 }
 
 .list-destinos {
