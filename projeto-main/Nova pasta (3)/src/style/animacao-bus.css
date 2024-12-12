@@ -82,7 +82,7 @@ a{
     & img[src*="imagemOnibusAnimacao"]{
      z-index: 1;
       transition: 3s;
-      width: 400px  !important;  
+      width: 200px  !important;  
       animation: animacao-bus 2s infinite;
     }
   }
