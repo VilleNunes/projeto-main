@@ -27,6 +27,7 @@ a{
   background-color: rgba(56, 136, 108, 0.053);
   gap: 80px;
   overflow: hidden;
+  margin: 0px  !important;
 
   h1{
     max-width: 40rem;
