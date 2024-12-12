@@ -130,6 +130,10 @@
         width: 175px !important;
         border-radius: 4px !important;
    }
+
+   .card img {
+    height: 100px;
+    }
    .secao-cards{
     padding-inline: 10px;
     padding-top:.1rem;
